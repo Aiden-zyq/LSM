@@ -1,6 +1,9 @@
 #!/bin/bash
 #磁盘监控组
 
+lsm_init() {
+    a=0
+}
 #查询磁盘使用情况
 disk_used_space () {
 #local disk_used=`df -hx iso9660 | grep -v Filesystem |awk '{print 'NR',$1,int($5)}'` #带行号打印磁盘文件系统和使用量
