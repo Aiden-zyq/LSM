@@ -1,6 +1,9 @@
 #！/bin/bash
 #cpu监控组
-
+ 
+lsm_init() {
+    a=0
+}
 #load average占用
 cpu_load_space () {
 local cpu_num=`grep 'model name' /proc/cpuinfo |wc -l` #统计cpu核数
